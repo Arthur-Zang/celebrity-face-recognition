@@ -1,0 +1,50 @@
+.parallax-effect-glare-scale {
+  
+    display: flex;
+  
+    flex-direction: column;
+  
+    justify-content: center;
+  
+    align-items: center;
+  
+    width: 150px;
+  
+    height: 150px;
+  
+    background-image: url(./logo.png);
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+  
+    color: white;
+  
+    border: 5px solid black;
+  
+    border-radius: 20px;
+  
+  
+    transform-style: preserve-3d;
+}
+  
+  
+.parallax-effect-glare-scale .inner-element {
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 35px;
+
+    font-style: italic;
+
+    color: white;
+
+    transform: translateZ(60px);
+
+}
